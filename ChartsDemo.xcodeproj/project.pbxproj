@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BEC043B1882C27105B25E8D /* Pods_ChartsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46936F71539B6C9B3987171E /* Pods_ChartsDemo.framework */; };
 		6F321CC92050D66E0047244D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F321CC82050D66E0047244D /* AppDelegate.m */; };
 		6F321CCC2050D66E0047244D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F321CCB2050D66E0047244D /* ViewController.m */; };
 		6F321CCF2050D66E0047244D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F321CCD2050D66E0047244D /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		6F321CD72050D66E0047244D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F321CD62050D66E0047244D /* main.m */; };
 		6F321CE12050D66E0047244D /* ChartsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F321CE02050D66E0047244D /* ChartsDemoTests.m */; };
 		6F321CEC2050D66E0047244D /* ChartsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F321CEB2050D66E0047244D /* ChartsDemoUITests.m */; };
+		6F321D012050D8450047244D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F321D002050D8450047244D /* FirstViewController.m */; };
+		6F321D042050D86C0047244D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F321D032050D86C0047244D /* SecondViewController.m */; };
+		6F321D072050D87E0047244D /* testSwfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F321D062050D87E0047244D /* testSwfit.swift */; };
+		6FB9C0982050E38800B6B224 /* PriceChartMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB9C0972050E38800B6B224 /* PriceChartMarkView.m */; };
+		6FB9C09B2050E3AF00B6B224 /* PriceTrendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB9C09A2050E3AF00B6B224 /* PriceTrendModel.m */; };
+		6FF799332050E93A00AB5B7E /* PriceChartMarkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FF799322050E45800AB5B7E /* PriceChartMarkView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46936F71539B6C9B3987171E /* Pods_ChartsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F321CC42050D66E0047244D /* ChartsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F321CC72050D66E0047244D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F321CC82050D66E0047244D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,20 @@
 		6F321CE72050D66E0047244D /* ChartsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F321CEB2050D66E0047244D /* ChartsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartsDemoUITests.m; sourceTree = "<group>"; };
 		6F321CED2050D66E0047244D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F321CFF2050D8450047244D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6F321D002050D8450047244D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6F321D022050D86C0047244D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6F321D032050D86C0047244D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6F321D052050D87D0047244D /* ChartsDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChartsDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		6F321D062050D87E0047244D /* testSwfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testSwfit.swift; sourceTree = "<group>"; };
+		6FB9C0962050E38800B6B224 /* PriceChartMarkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriceChartMarkView.h; sourceTree = "<group>"; };
+		6FB9C0972050E38800B6B224 /* PriceChartMarkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceChartMarkView.m; sourceTree = "<group>"; };
+		6FB9C0992050E3AF00B6B224 /* PriceTrendModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriceTrendModel.h; sourceTree = "<group>"; };
+		6FB9C09A2050E3AF00B6B224 /* PriceTrendModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceTrendModel.m; sourceTree = "<group>"; };
+		6FF799322050E45800AB5B7E /* PriceChartMarkView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceChartMarkView.xib; sourceTree = "<group>"; };
+		6FF799342050F53B00AB5B7E /* ChartsDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartsDemo.pch; sourceTree = "<group>"; };
+		F04CEA40674FC85D52389C46 /* Pods-ChartsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F4D6FAAC7000FA2FCB95266D /* Pods-ChartsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BEC043B1882C27105B25E8D /* Pods_ChartsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21AA21EDE435832CA962634D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4D6FAAC7000FA2FCB95266D /* Pods-ChartsDemo.debug.xcconfig */,
+				F04CEA40674FC85D52389C46 /* Pods-ChartsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6F321CBB2050D66E0047244D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +117,8 @@
 				6F321CDF2050D66E0047244D /* ChartsDemoTests */,
 				6F321CEA2050D66E0047244D /* ChartsDemoUITests */,
 				6F321CC52050D66E0047244D /* Products */,
+				21AA21EDE435832CA962634D /* Pods */,
+				957F6A4045694F529E5B49AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +135,8 @@
 		6F321CC62050D66E0047244D /* ChartsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6F321CC72050D66E0047244D /* AppDelegate.h */,
-				6F321CC82050D66E0047244D /* AppDelegate.m */,
-				6F321CCA2050D66E0047244D /* ViewController.h */,
-				6F321CCB2050D66E0047244D /* ViewController.m */,
-				6F321CCD2050D66E0047244D /* Main.storyboard */,
-				6F321CD02050D66E0047244D /* Assets.xcassets */,
-				6F321CD22050D66E0047244D /* LaunchScreen.storyboard */,
-				6F321CD52050D66E0047244D /* Info.plist */,
-				6F321CD62050D66E0047244D /* main.m */,
+				6F321CFB2050D75D0047244D /* Classes */,
+				6F321CF92050D6810047244D /* Supporting Files */,
 			);
 			path = ChartsDemo;
 			sourceTree = "<group>";
@@ -132,6 +159,73 @@
 			path = ChartsDemoUITests;
 			sourceTree = "<group>";
 		};
+		6F321CF92050D6810047244D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F321CD52050D66E0047244D /* Info.plist */,
+				6F321CC72050D66E0047244D /* AppDelegate.h */,
+				6F321CC82050D66E0047244D /* AppDelegate.m */,
+				6F321CCA2050D66E0047244D /* ViewController.h */,
+				6F321CCB2050D66E0047244D /* ViewController.m */,
+				6F321CCD2050D66E0047244D /* Main.storyboard */,
+				6F321CD02050D66E0047244D /* Assets.xcassets */,
+				6F321CD22050D66E0047244D /* LaunchScreen.storyboard */,
+				6F321CD62050D66E0047244D /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F321CFB2050D75D0047244D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F321CFC2050D7DA0047244D /* LineChart */,
+				6F321CFD2050D7EF0047244D /* PieChart */,
+				6F321CFE2050D7F70047244D /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6F321CFC2050D7DA0047244D /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				6F321CFF2050D8450047244D /* FirstViewController.h */,
+				6F321D002050D8450047244D /* FirstViewController.m */,
+				6FB9C0962050E38800B6B224 /* PriceChartMarkView.h */,
+				6FB9C0972050E38800B6B224 /* PriceChartMarkView.m */,
+				6FF799322050E45800AB5B7E /* PriceChartMarkView.xib */,
+				6FB9C0992050E3AF00B6B224 /* PriceTrendModel.h */,
+				6FB9C09A2050E3AF00B6B224 /* PriceTrendModel.m */,
+			);
+			path = LineChart;
+			sourceTree = "<group>";
+		};
+		6F321CFD2050D7EF0047244D /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				6F321D022050D86C0047244D /* SecondViewController.h */,
+				6F321D032050D86C0047244D /* SecondViewController.m */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		6F321CFE2050D7F70047244D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6F321D062050D87E0047244D /* testSwfit.swift */,
+				6F321D052050D87D0047244D /* ChartsDemo-Bridging-Header.h */,
+				6FF799342050F53B00AB5B7E /* ChartsDemo.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		957F6A4045694F529E5B49AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46936F71539B6C9B3987171E /* Pods_ChartsDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F321CF02050D66E0047244D /* Build configuration list for PBXNativeTarget "ChartsDemo" */;
 			buildPhases = (
+				86EA5DC683121AE8157449BC /* [CP] Check Pods Manifest.lock */,
 				6F321CC02050D66E0047244D /* Sources */,
 				6F321CC12050D66E0047244D /* Frameworks */,
 				6F321CC22050D66E0047244D /* Resources */,
+				CF5295556712630D944D7418 /* [CP] Embed Pods Frameworks */,
+				0D840A072C329AE78759C77A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +296,7 @@
 				TargetAttributes = {
 					6F321CC32050D66E0047244D = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					6F321CDB2050D66E0047244D = {
@@ -238,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF799332050E93A00AB5B7E /* PriceChartMarkView.xib in Resources */,
 				6F321CD42050D66E0047244D /* LaunchScreen.storyboard in Resources */,
 				6F321CD12050D66E0047244D /* Assets.xcassets in Resources */,
 				6F321CCF2050D66E0047244D /* Main.storyboard in Resources */,
@@ -260,14 +359,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D840A072C329AE78759C77A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86EA5DC683121AE8157449BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5295556712630D944D7418 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F321CC02050D66E0047244D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F321D042050D86C0047244D /* SecondViewController.m in Sources */,
+				6FB9C0982050E38800B6B224 /* PriceChartMarkView.m in Sources */,
+				6F321D072050D87E0047244D /* testSwfit.swift in Sources */,
 				6F321CCC2050D66E0047244D /* ViewController.m in Sources */,
 				6F321CD72050D66E0047244D /* main.m in Sources */,
+				6FB9C09B2050E3AF00B6B224 /* PriceTrendModel.m in Sources */,
 				6F321CC92050D66E0047244D /* AppDelegate.m in Sources */,
+				6F321D012050D8450047244D /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +506,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -409,6 +562,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -428,26 +582,39 @@
 		};
 		6F321CF12050D66E0047244D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D6FAAC7000FA2FCB95266D /* Pods-ChartsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ChartsDemo/Info.plist;
+				DEFINES_MODULE = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChartsDemo/Classes/Other/ChartsDemo.pch";
+				INFOPLIST_FILE = "ChartsDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = songpeng.ChartsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChartsDemo/Classes/Other/ChartsDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		6F321CF22050D66E0047244D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04CEA40674FC85D52389C46 /* Pods-ChartsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ChartsDemo/Info.plist;
+				DEFINES_MODULE = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChartsDemo/Classes/Other/ChartsDemo.pch";
+				INFOPLIST_FILE = "ChartsDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = songpeng.ChartsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChartsDemo/Classes/Other/ChartsDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -455,6 +622,7 @@
 		6F321CF42050D66E0047244D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChartsDemoTests/Info.plist;
@@ -469,6 +637,7 @@
 		6F321CF52050D66E0047244D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChartsDemoTests/Info.plist;
@@ -483,6 +652,7 @@
 		6F321CF72050D66E0047244D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChartsDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +666,7 @@
 		6F321CF82050D66E0047244D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChartsDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

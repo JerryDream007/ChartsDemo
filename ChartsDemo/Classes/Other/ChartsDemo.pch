@@ -1,0 +1,21 @@
+//
+//  ChartsDemo.pch
+//  ChartsDemo
+//
+//  Created by 宋澎 on 2018/3/8.
+//  Copyright © 2018年 宋澎. All rights reserved.
+//
+
+#ifndef ChartsDemo_pch
+#define ChartsDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define kSCREEN_WIDTH           [UIScreen mainScreen].bounds.size.width
+
+#define kSCREEN_HEIGHT          [UIScreen mainScreen].bounds.size.height
+
+#define HEXCOLOR(c)         [UIColor colorWithRed:((c>>16)&0xFF)/255.0 green:((c>>8)&0xFF)/255.0 blue:(c&0xFF)/255.0 alpha:1.0]
+
+#endif /* ChartsDemo_pch */

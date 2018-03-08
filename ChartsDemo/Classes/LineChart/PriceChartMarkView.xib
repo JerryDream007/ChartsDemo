@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PriceChartMarkView">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12/16" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbe-g3-gaF">
+                    <rect key="frame" x="10" y="5" width="140" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上一交易日 :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U28-ey-waJ">
+                    <rect key="frame" x="10" y="24.5" width="68.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今           日 :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLV-PI-7Jb">
+                    <rect key="frame" x="10" y="44" width="69" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9999.00元  " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwu-ly-5QQ">
+                    <rect key="frame" x="83.5" y="25" width="67.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5u-Te-ay3">
+                    <rect key="frame" x="83.5" y="44.5" width="30.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PLV-PI-7Jb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="2kn-Ht-OO3"/>
+                <constraint firstItem="dwu-ly-5QQ" firstAttribute="centerY" secondItem="U28-ey-waJ" secondAttribute="centerY" id="2zi-3q-3pm"/>
+                <constraint firstItem="U28-ey-waJ" firstAttribute="top" secondItem="xbe-g3-gaF" secondAttribute="bottom" constant="5" id="A4s-zs-5hq"/>
+                <constraint firstItem="xbe-g3-gaF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Azv-IC-7pM"/>
+                <constraint firstItem="xbe-g3-gaF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="HXk-Ej-Djg"/>
+                <constraint firstItem="U28-ey-waJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Ima-LQ-cy9"/>
+                <constraint firstItem="PLV-PI-7Jb" firstAttribute="top" secondItem="U28-ey-waJ" secondAttribute="bottom" constant="5" id="Qt3-mE-DPJ"/>
+                <constraint firstItem="E5u-Te-ay3" firstAttribute="centerY" secondItem="PLV-PI-7Jb" secondAttribute="centerY" id="UA9-j7-A7Y"/>
+                <constraint firstItem="E5u-Te-ay3" firstAttribute="leading" secondItem="dwu-ly-5QQ" secondAttribute="leading" id="kgg-DJ-Ic5"/>
+                <constraint firstItem="dwu-ly-5QQ" firstAttribute="leading" secondItem="U28-ey-waJ" secondAttribute="trailing" constant="5" id="kiO-MD-4zZ"/>
+                <constraint firstAttribute="trailing" secondItem="xbe-g3-gaF" secondAttribute="trailing" constant="10" id="vee-km-fPg"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="currentPriceLabel" destination="E5u-Te-ay3" id="gni-Kd-RP8"/>
+                <outlet property="dateLabel" destination="xbe-g3-gaF" id="G0U-ux-Ad1"/>
+                <outlet property="lastPriceLabel" destination="dwu-ly-5QQ" id="yeq-hR-zlp"/>
+            </connections>
+            <point key="canvasLocation" x="-82" y="207"/>
+        </view>
+    </objects>
+</document>
